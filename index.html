@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oakora Living — thoughtful furniture for comfortable, beautiful homes.">
+  <title>Home | Oakora Living</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+<style type="text/tailwindcss">
+  @theme {
+    --color-oak: #8B5E3C;
+    --color-forest: #243B2F;
+    --color-cream: #F7F3EC;
+    --color-sand: #E7D9C8;
+  }
+</style>
+
+</head>
+<body class="bg-cream text-gray-800 antialiased">
+  <div class="bg-forest px-4 py-2 text-center text-sm text-white">Thoughtfully made spaces, made for living · Free delivery on orders over KSh 50,000</div>
+  <header class="sticky top-0 z-40 border-b border-sand bg-white/95 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3" aria-label="Oakora Living home">
+        <span class="flex h-11 w-11 items-center justify-center rounded-full bg-forest text-lg font-bold text-white">O</span>
+        <span><span class="block text-xl font-bold tracking-tight text-forest">Oakora Living</span><span class="block text-xs tracking-[0.2em] text-oak">FURNITURE & HOME</span></span>
+      </a>
+      <button id="menuButton" class="rounded-lg border border-sand px-3 py-2 text-sm font-semibold text-forest md:hidden" aria-expanded="false" aria-controls="mobileMenu">Menu ☰</button>
+      <nav class="hidden items-center gap-6 text-sm md:flex" aria-label="Main navigation"><a class="text-oak font-semibold transition-colors" href="index.html">Home</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="about.html">About</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="products.html">Products</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="categories.html">Categories</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="gallery.html">Gallery</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="contact.html">Contact</a></nav>
+    </div>
+    <nav id="mobileMenu" class="hidden border-t border-sand bg-white px-5 py-4 md:hidden" aria-label="Mobile navigation">
+      <div class="flex flex-col gap-4"><a class="text-oak font-semibold transition-colors" href="index.html">Home</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="about.html">About</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="products.html">Products</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="categories.html">Categories</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="gallery.html">Gallery</a>
+<a class="text-gray-700 hover:text-oak transition-colors" href="contact.html">Contact</a></div>
+    </nav>
+  </header>
+  <main>
+    
+<section class="relative isolate overflow-hidden bg-forest">
+  <img src="images/hero-living-room.jpg" alt="Warm, inviting modern living room with natural textures" class="absolute inset-0 -z-20 h-full w-full object-cover opacity-45">
+  <div class="absolute inset-0 -z-10 bg-gradient-to-r from-forest via-forest/80 to-forest/20"></div>
+  <div class="mx-auto grid max-w-7xl items-center gap-10 px-4 py-20 sm:px-6 sm:py-28 lg:grid-cols-2 lg:px-8 lg:py-32">
+    <div class="max-w-2xl text-white"><p class="mb-5 text-sm font-semibold uppercase tracking-[0.25em] text-sand">Make room for living</p><h1 class="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">Furniture that feels like <span class="text-sand">home.</span></h1><p class="mt-6 max-w-xl text-lg leading-8 text-white/80">Create a space that tells your story with timeless furniture, natural finishes and comfort you can feel every day.</p><div class="mt-9 flex flex-col gap-3 sm:flex-row"><a href="products.html" class="rounded-lg bg-oak px-6 py-3 text-center font-semibold text-white shadow-md transition hover:bg-amber-800">Explore our collection</a><a href="about.html" class="rounded-lg border border-white/60 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10">Our story</a></div><div class="mt-10 flex flex-wrap gap-6 text-sm text-white/80"><span>✓ Thoughtful design</span><span>✓ Quality materials</span><span>✓ Everyday comfort</span></div></div>
+    <div class="hidden lg:block"><div class="ml-auto max-w-md rounded-2xl border border-white/30 bg-white/10 p-5 shadow-2xl backdrop-blur-sm"><img src="images/chair.jpg" alt="Minimal wooden accent chair" class="h-80 w-full rounded-xl object-cover"><div class="flex items-center justify-between pt-5 text-white"><div><p class="font-semibold">The everyday edit</p><p class="mt-1 text-sm text-white/70">Comfort, made considered.</p></div><span class="rounded-full bg-sand px-3 py-1 text-xs font-bold text-forest">NEW SEASON</span></div></div></div>
+  </div>
+</section>
+<section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="mb-9 flex flex-col justify-between gap-4 sm:flex-row sm:items-end"><div><p class="text-sm font-bold uppercase tracking-[0.2em] text-oak">A few favourites</p><h2 class="mt-2 text-3xl font-bold text-forest sm:text-4xl">Pieces to love, every day</h2></div><a href="products.html" class="font-semibold text-oak hover:underline">Shop all products →</a></div><div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  <article class="overflow-hidden rounded-2xl border border-sand bg-white shadow-md"><img src="images/sofa.jpg" alt="Contemporary neutral sofa" class="h-64 w-full object-cover"><div class="p-5"><p class="text-sm text-oak">Living room</p><h3 class="mt-1 text-xl font-bold">The Haven Sofa</h3><p class="mt-2 text-gray-600">A relaxed silhouette made for slow mornings and long conversations.</p><p class="mt-4 font-bold text-forest">From KSh 68,000</p></div></article>
+  <article class="overflow-hidden rounded-2xl border border-sand bg-white shadow-md"><img src="images/coffee-table.jpg" alt="Wooden table in a calm interior" class="h-64 w-full object-cover"><div class="p-5"><p class="text-sm text-oak">Dining & living</p><h3 class="mt-1 text-xl font-bold">The Alder Table</h3><p class="mt-2 text-gray-600">Natural wood character with room for everyday gatherings.</p><p class="mt-4 font-bold text-forest">From KSh 42,000</p></div></article>
+  <article class="overflow-hidden rounded-2xl border border-sand bg-white shadow-md"><img src="images/chair.jpg" alt="Sculptural accent chair" class="h-64 w-full object-cover"><div class="p-5"><p class="text-sm text-oak">Accent seating</p><h3 class="mt-1 text-xl font-bold">The Nia Chair</h3><p class="mt-2 text-gray-600">A beautiful finishing touch for a reading corner or bedroom.</p><p class="mt-4 font-bold text-forest">From KSh 24,500</p></div></article>
+</div></section>
+<section class="bg-sand/60"><div class="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 md:grid-cols-2 lg:px-8"><img src="images/living-room-2.jpg" alt="Bright, calm living room styled with natural furniture" class="h-80 w-full rounded-2xl object-cover shadow-md md:h-full"><div><p class="text-sm font-bold uppercase tracking-[0.2em] text-oak">Designed around you</p><h2 class="mt-3 text-3xl font-bold text-forest sm:text-4xl">A little more calm. A lot more you.</h2><p class="mt-5 leading-7 text-gray-600">We believe good furniture does more than fill a room. It supports the routines, celebrations and quiet moments that make a house your home.</p><a href="categories.html" class="mt-7 inline-flex rounded-lg bg-forest px-6 py-3 font-semibold text-white hover:bg-green-950">Find your style</a></div></div></section>
+<section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="grid gap-8 text-center sm:grid-cols-3"><div class="rounded-xl bg-white p-6"><span class="text-3xl">✦</span><h3 class="mt-3 font-bold text-forest">Considered design</h3><p class="mt-2 text-sm leading-6 text-gray-600">Clean shapes and thoughtful details that stand the test of time.</p></div><div class="rounded-xl bg-white p-6"><span class="text-3xl">⌂</span><h3 class="mt-3 font-bold text-forest">Comfort first</h3><p class="mt-2 text-sm leading-6 text-gray-600">Practical, welcoming pieces for real homes and real life.</p></div><div class="rounded-xl bg-white p-6"><span class="text-3xl">♡</span><h3 class="mt-3 font-bold text-forest">Personal service</h3><p class="mt-2 text-sm leading-6 text-gray-600">Helpful guidance to make choosing furniture feel easy.</p></div></div></section>
+
+  </main>
+  <footer class="bg-forest text-white">
+    <div class="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-3 lg:px-8">
+      <div><a href="index.html" class="text-2xl font-bold">Oakora Living</a><p class="mt-3 max-w-sm text-sm leading-6 text-white/75">Furniture with a natural soul. Discover considered pieces designed to bring warmth, comfort and lasting style to your home.</p></div>
+      <div><h2 class="font-semibold">Explore</h2><div class="mt-4 grid grid-cols-2 gap-3 text-sm text-white/75"><a class="hover:text-white" href="about.html">Our story</a><a class="hover:text-white" href="products.html">Products</a><a class="hover:text-white" href="categories.html">Categories</a><a class="hover:text-white" href="gallery.html">Gallery</a><a class="hover:text-white" href="contact.html">Contact us</a></div></div>
+      <div><h2 class="font-semibold">Visit or say hello</h2><p class="mt-4 text-sm leading-6 text-white/75">Nyeri, Kenya<br>+254 700 123 456<br>hello@oakoraliving.example<br>Mon–Sat: 9:00 AM–6:00 PM</p></div>
+    </div>
+    <div class="border-t border-white/15 px-4 py-5 text-center text-xs text-white/60">© 2026 Oakora Living. Demo business details are placeholders; update them before publishing.</div>
+  </footer>
+  <script>
+    const menuButton = document.getElementById('menuButton');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuButton?.addEventListener('click', () => {
+      const isOpen = !mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+      menuButton.setAttribute('aria-expanded', String(!isOpen));
+    });
+  </script>
+</body>
+</html>
